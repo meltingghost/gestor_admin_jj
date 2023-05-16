@@ -1,0 +1,169 @@
+/*COLOR DE FONDO AZUL GRADIENT*/
+.bg-jj {
+	background: linear-gradient(to top, #000B4B, #1328A4, #5BADFA);
+}
+
+/*COLOR AZUL CLARO*/
+.blue-light-jj {
+	background-color: #5BADFA; 
+}
+
+/*COLOR AZUL OSCURO*/
+.blue-dark-jj {
+	background-color: #0B1C83;
+}
+
+/*HEADER DEL TITULO PRINCIPAL*/
+#headerTitulo {
+	background: linear-gradient(to right, #000B4B, #1328A4, #5BADFA);
+	color: #fff;
+	margin-top: 0px;
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+}
+
+#headerTitulo:after {
+	content: "";
+	width: 0px;
+	height: 100%;
+	position: absolute;
+	bottom: 0%;
+	background: linear-gradient(to left, #000B4B, #1328A4, #5BADFA);
+	transition: all 0.4s linear 0s;
+}
+
+#headerTitulo:hover::after {
+	width: 100%;
+	content: "";
+}
+
+#h1Titulo {
+    position: relative;
+    z-index: 1;
+	margin-right: 50px;
+	width: 85%;
+	padding: 25px;
+	padding-left: 90px;
+}
+
+#imgTitulo {
+	position: absolute;
+	top: 8px;
+	right: 115px;
+	z-index: 1;
+}
+
+/*ESPACIOS HACIA ABAJO*/
+.spaceDown {
+	margin-top: 80px;
+}
+
+/*MARGEN GENERAL*/
+.spaceMargin {
+	margin: 80px 20px 0px 20px;
+}
+
+/*CONTENIDO DE LA PAGINA RESPONSIVE*/
+@media only screen and (max-width: 1325px){
+	#responsive{
+		margin-top: 125px;
+	}
+}
+
+/*ATAJOS*/
+.upper-section{
+	display: flex;
+	flex-direction: row;
+}
+
+.images{
+	height: 80px;
+	width: 80px;
+	margin: 25px;
+}
+
+.wrapit{
+	border-radius: 5px;
+	margin: 20px;
+	width: 245px;
+	height: 170px;
+	box-shadow: 4px 8px 8px;
+}
+
+.upper-section{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.each-name{
+	font-size: 12px;
+	margin-right: 15px;
+	color: white;
+	align-self: flex-end;
+	font-weight: bold;
+}
+
+.lower-section{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: white;
+	border-radius: 4px;
+	height: 38.5px;
+	width: 241.5px;
+	padding-top: 5px;
+	padding-left: 20px;
+	margin: 0px 1.5px 1.5px 1.5px;
+}
+
+.arrow-shortcut{
+	height: 26px;
+	width: 26px;
+	margin-right: 15px;
+	margin-top: 4px;
+}
+
+/*DIV FORMULARIO PEQUEÑO DE REGISTRO*/
+.formRegistroSm {
+	max-height: 260px;
+}
+
+.formRegistroSm:hover {
+	filter: drop-shadow(6px 6px 8px black);
+}
+
+/*BARRA DE ESTADO DEL FORMULARIO DE REGISTRO DE PERSONAL*/
+/* Make circles that indicate the steps of the form: */
+.step {
+	height: 50px;
+	width: 50px;
+	margin: 0 2px;
+	background-color: #bbbbbb;
+	border: none;
+	border-radius: 50%;
+	display: inline-block;
+	opacity: 0.5;
+	padding: 2.5px;
+}
+
+/* Mark the active step: */
+.step.active {
+	background-color: #0d6efd;
+	opacity: 2;
+}
+
+#step1, #step2, #step3, #step4, #step5 {
+	color: white;
+	font-size: 30px;
+}
+
+/*ESTILOS PARA LA PÁGINA DE GRADOS Y SECCIONES*/
+#btnGrados, #btnSecciones {
+	cursor: pointer;
+}
+
+.subActivo {
+	text-decoration: underline;
+}

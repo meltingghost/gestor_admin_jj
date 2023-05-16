@@ -1,0 +1,68 @@
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: fixed; /* Position them relative to the browser window */
+    left: -125px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 170px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+    text-align: right;
+    z-index: 5;
+}
+
+#mySpanSidenav {
+    margin-left: 15px;
+}
+
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#inicio {
+    top: 20px;
+    background-color: #04AA6D;
+}
+
+#estudiantes {
+    top: 80px;
+    background-color: #04AA6D; /* Blue */
+}
+
+#literal {
+    top: 140px;
+    background-color: #04AA6D; /* Red */
+}
+
+#asistencias {
+    top: 200px;
+    background-color: #2196F3; /* Light Black */
+}
+
+#personal {
+    top: 260px;
+    background-color: #2196F3; /* Light Black */
+}
+
+#cargos {
+    top: 320px;
+    background-color: #2196F3; /* Light Black */
+}
+
+#papelera {
+    top: 380px;
+    background-color: #555; /* Light Black */
+}
+
+#preferencias {
+    top: 440px;
+    background-color: #555; /* Light Black */
+}
+
+#salir {
+    bottom: 20px;
+    background-color: #EF2020; /* Light Black */
+}

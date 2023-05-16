@@ -1,0 +1,122 @@
+/*PAGINA DE INICIO*/
+.identar {
+	text-indent: 3%;
+}
+
+#cardPrincipal {
+	border: 2px solid black !important;
+}
+
+#cardPrincipal:hover {
+	filter: drop-shadow(4px 4px 8px #0B1C83);
+}
+
+.slideshow-container {
+  max-width: 90%;
+  position: relative;
+  margin: auto;
+}
+
+/*FORMULARIO DE CONTROL DE ASISTENCIA*/
+.formAsisPer {
+	margin-top: 1.5%;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-bottom: 1.5%;
+	opacity: 0.9;
+}
+
+.formAsisPer:hover {
+	filter: drop-shadow(6px 6px 8px #3E6F8E);
+}
+
+/*FORMULARIO DE RESGISTRO DE USUARIOS*/
+.formRegistroUser {
+	margin-top: 1.5%;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-bottom: 1.5%;
+	background-color: #323243 !important;
+	color: #fff;
+	opacity: 0.9;
+}
+
+.formRegistroUser:hover {
+	opacity: 1;
+	filter: drop-shadow(4px 4px 8px blue);
+}
+
+/*ESTILOS PARA VALIDAR FORMULARIOS*/
+.formU-label {
+	cursor: pointer;
+}
+
+.formU-group-input {
+	position: relative !important;
+}
+
+.formU-input-error {
+	display: none;
+	color: red;
+}
+
+.formU-input-error-activo {
+	display: block;
+}
+
+.formU-val-status {
+	position: absolute !important;
+	right: 12px;
+	top: 12px;
+	z-index: -100;
+	font-size: 16px;
+	opacity: 0;
+}
+
+.formU-checkbox {
+	margin-right: 10px;
+}
+
+.formU-group-terminos, .formU-group-btn-enviar {
+	grid-column: span 2;
+}
+
+.formU-group-btn-enviar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.formU-btn {
+	height: 45px;
+	line-height: 45px;
+	width: 30%;
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: .1s ease all;
+}
+
+.formU-btn:hover {
+	box-shadow: 3px 0px 30px rgba(163, 163, 163, 1);
+}
+
+/*ESTILOS PARA LA VALIDACION DEL FORMULARIO*/
+.formU-group-correcto .formU-val-status {
+	color: #1ed12d;
+	z-index: 100;
+	opacity: 1;
+}
+
+.formU-group-incorrecto .formU-val-status {
+	color: #bb2929;
+	z-index: 100;
+	opacity: 1;
+}
+
+.formU-group-incorrecto .formU-input {
+	border: 3px solid #bb2929 !important;
+}
