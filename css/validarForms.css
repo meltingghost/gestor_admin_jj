@@ -1,0 +1,43 @@
+/*ESTILOS PARA VALIDAR FORMULARIOS*/
+.formV-label {
+	cursor: pointer;
+}
+
+.formV-group-input {
+	position: relative !important;
+}
+
+.formV-input-error {
+	display: none;
+	color: red;
+}
+
+.formV-input-error-activo {
+	display: block;
+}
+
+.formV-val-status {
+	position: absolute !important;
+	right: 12px;
+	top: 12px;
+	z-index: -100;
+	font-size: 16px;
+	opacity: 0;
+}
+
+/*ESTILOS PARA LA VALIDACION DEL FORMULARIO*/
+.formV-group-correcto .formV-val-status {
+	color: #1ed12d;
+	z-index: 100;
+	opacity: 1;
+}
+
+.formV-group-incorrecto .formV-val-status {
+	color: #bb2929;
+	z-index: 100;
+	opacity: 1;
+}
+
+.formV-group-incorrecto .formV-input {
+	border: 3px solid #bb2929 !important;
+}

@@ -1,0 +1,69 @@
+/*PAGINA DE INICIO*/
+.identar {
+	text-indent: 3%;
+}
+
+/*COLOR DE FONDO PARA LOS INPUTS DE SOLO LECTURA*/
+.input-readonly {
+	background-color: #e9ecef;
+}
+
+#cardPrincipal {
+	border: 2px solid black !important;
+}
+
+#cardPrincipal:hover {
+	filter: drop-shadow(4px 4px 8px #0B1C83);
+}
+
+.slideshow-container {
+  max-width: 90%;
+  position: relative;
+  margin: auto;
+}
+
+/*FORMULARIO DE CONTROL DE ASISTENCIA*/
+.formAsisPer {
+	margin-top: 1.5%;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-bottom: 1.5%;
+	opacity: 0.9;
+}
+
+.formAsisPer:hover {
+	filter: drop-shadow(6px 6px 8px #3E6F8E);
+}
+
+/*FORMULARIO DE RESGISTRO DE USUARIOS*/
+.formRegistroUser {
+	margin-top: 1.5%;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-bottom: 1.5%;
+	background-color: #323243 !important;
+	color: #fff;
+	opacity: 0.9;
+}
+
+.formRegistroUser:hover {
+	opacity: 1;
+	filter: drop-shadow(4px 4px 8px blue);
+}
+
+/*MOSTRAR Y OCULTAR ELEMENTOS*/
+.mostrar {
+	display: block;
+}
+
+.ocultar {
+	display: none;
+}
+
+/*RULETA*/
+#cuadroText {
+	background-color: #fff;
+	height: 300px;
+	border: 2px solid black;
+	font-size: 20px;
+}
